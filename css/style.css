@@ -165,3 +165,31 @@ a:hover {
   font-style: italic;
 }
 
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem; 
+  }
+
+  #nav li {
+    margin: 0.5rem; 
+  }
+
+  #info {
+    padding: 1rem; 
+  }
+
+  #education,
+  #courses,
+  #experiences,
+  #class-projects,
+  #skills {
+    padding: 1rem; 
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 16px; 
+  }
+}
