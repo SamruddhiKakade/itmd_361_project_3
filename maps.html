@@ -2,52 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <title>Map and Image Slider</title>
   <link rel="stylesheet" type="text/css" href="../itmd_361_project_3/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="../itmd_361_project_3/css/style.css">
-  <title>Map</title>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHFRuoeI86fG_k7l15OriLENpfCGCHEFk&callback=initMap" async defer></script>
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHFRuoeI86fG_k7l15OriLENpfCGCHEFk&callback=initMap" async defer></script>
   <script src="../itmd_361_project_3/js/script.js" defer></script>
-  <style>
-    body {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      margin: 0;
-    }
-
-    #map {
-      height: 400px;
-      flex-grow: 1; 
-    }
-
-    .swiper-container {
-      margin: 20px; 
-    }
-
-    .swiper-slide img {
-      width: 100%;
-      height: auto;
-    }
-  </style>
 </head>
 <body>
-  <ul id="nav">
-    <li><a href="class_projects.html">Class Projects</a></li>
-    <li><a href="experiences.html">Experiences</a></li>
-    <li><a href="index.html">Resume</a></li>
-    <li><a href="maps.html">Map</a></li>
-  </ul>
   <h1>Map</h1>
   <div id="map"></div>
-  <h2>Picture slider</h2>
+  <h2>Image slider</h2>
   <div id="slider-container">
+    <div id="arrow-left">&#9664;</div>
     <div id="image-slider">
-      <img src="../itmd_361_project_3/media/iit_logo.jpg" alt="Slide 1">
-      <img src="../itmd_361_project_3/media/linkedIn_logo.jpg" alt="Slide 2">
-      <img src="../itmd_361_project_3/media/my_photo.jpg" alt="Slide 3">
+      <img src="../itmd_361_project_3/media/iit_picture_1.jpg" alt="Slide 1">
+      <img src="../itmd_361_project_3/media/iit_picture_2.jpg" alt="Slide 2">
+      <img src="../itmd_361_project_3/media/iit_picture_3.jpg" alt="Slide 3">
     </div>
+    <div id="arrow-right">&#9654;</div>
   </div>  
 </body>
 </html>
+
