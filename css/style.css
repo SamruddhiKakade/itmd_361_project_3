@@ -221,20 +221,26 @@ a:hover {
 
 /* CSS for Slider */
 .swiper-container {
-  margin: 20px; 
+  margin: 20px; /* Adjust margin as needed */
 }
 
 .swiper-slide img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
+/* Position navigation below the images */
 .swiper-pagination,
 .swiper-button-next,
 .swiper-button-prev {
-  position: static;
-  margin-top: 10px; 
+  position: relative;
+  top: auto;
+  left: auto;
+  margin-top: 10px; /* Adjust margin as needed */
 }
+
 
 }
 

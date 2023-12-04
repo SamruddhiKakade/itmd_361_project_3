@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="../itmd_361_project_3/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="../itmd_361_project_3/css/style.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <title>Map</title>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHFRuoeI86fG_k7l15OriLENpfCGCHEFk&callback=initMap" async defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="../itmd_361_project_3/js/script.js" defer></script>
   <style>
     body {
@@ -40,23 +41,13 @@
   </ul>
   <h1>Map</h1>
   <div id="map"></div>
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="../itmd_361_project_3/media/iit_logo.jpg" alt="Slide 1">
-      </div>
-      <div class="swiper-slide">
-        <img src="../itmd_361_project_3/media/linkedIn_logo.jpg" alt="Slide 2">
-      </div>
-      <div class="swiper-slide">
-        <img src="../itmd_361_project_3/media/my_photo.jpg" alt="Slide 3">
-      </div>
+  <h2>Picture slider</h2>
+  <div id="slider-container">
+    <div id="image-slider">
+      <img src="../itmd_361_project_3/media/iit_logo.jpg" alt="Slide 1">
+      <img src="../itmd_361_project_3/media/linkedIn_logo.jpg" alt="Slide 2">
+      <img src="../itmd_361_project_3/media/my_photo.jpg" alt="Slide 3">
     </div>
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div>
-
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </div>  
 </body>
 </html>

@@ -17,18 +17,16 @@ function initMap() {
     google.maps.event.addListener(marker, 'click', function () {
       infoWindow.open(map, marker);
     });
-
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
   }
+
+  $(function() {
+    $("#image-slider").slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true
+    });
+  });
+  
   
