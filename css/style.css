@@ -219,8 +219,22 @@ a:hover {
     font-size: 1rem;
   }
 
-/* css for slider */
+/* CSS for Slider */
+.swiper-container {
+  margin: 20px; 
+}
 
+.swiper-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+.swiper-pagination,
+.swiper-button-next,
+.swiper-button-prev {
+  position: static;
+  margin-top: 10px; 
+}
 
 }
 
