@@ -133,7 +133,7 @@ a:hover {
   margin-top: 2rem;  
 }
 
-/* Style elements for class_projects page */
+/* Style elements for class_projects page (Fluid page)*/
 
 #class-projects-main h1 {
   float: left;
@@ -165,31 +165,59 @@ a:hover {
   font-style: italic;
 }
 
+/* Media Queries */
 
-@media (max-width: 600px) {
-  body {
-    padding: 1rem; 
+@media (max-width: 900px) {
+
+  #class-projects-main h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
-  #nav li {
-    margin: 0.5rem; 
+  #class-projects-main div {
+    border-radius: 2rem;
+    margin-bottom: 1rem;
   }
 
-  #info {
-    padding: 1rem; 
+  #class-projects-main div p:first-child {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
   }
 
-  #education,
-  #courses,
-  #experiences,
-  #class-projects,
-  #skills {
-    padding: 1rem; 
+  #class-projects-main div strong {
+    font-size: 1rem;
   }
+
+  #class-projects-main div em {
+    font-size: 0.8rem;
+  }
+
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
-  body {
-    font-size: 16px; 
+@media (min-width: 1200px) {
+
+  #class-projects-main h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
   }
+
+  #class-projects-main div {
+    border-radius: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  #class-projects-main div p:first-child {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  #class-projects-main div strong {
+    font-size: 1.2rem;
+  }
+
+  #class-projects-main div em {
+    font-size: 1rem;
+  }
+
 }
+
