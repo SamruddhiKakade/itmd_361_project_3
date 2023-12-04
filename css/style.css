@@ -219,5 +219,23 @@ a:hover {
     font-size: 1rem;
   }
 
+/* css for slider */
+
+.swiper-container {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-pagination,
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff50; 
+}
+
 }
 
