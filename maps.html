@@ -6,11 +6,28 @@
   <link rel="stylesheet" type="text/css" href="../itmd_361_project_3/css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <title>Map</title>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHFRuoeI86fG_k7l15OriLENpfCGCHEFk&callback=initMap" async defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
   <script src="../itmd_361_project_3/js/script.js" defer></script>
   <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
+
     #map {
-      height: 400px; 
+      height: 400px;
+      flex-grow: 1; 
+    }
+
+    .swiper-container {
+      margin: 20px; 
+    }
+
+    .swiper-slide img {
+      width: 100%;
+      height: auto;
     }
   </style>
 </head>
